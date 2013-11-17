@@ -48,7 +48,7 @@ post-link: http://rgruet.free.fr/PQR27/PQR2.7.html#Invocation
 
 -u
 : 不带缓存的二进制 `stdout`（标准输出）和`stderr`（标准错误）（参阅
-  `PYTHONUNBUFFERED=x`
+  `PYTHONUNBUFFERED=x`）
 
 -U
 : 强制 Python 将所有字符串字面量作为 Unicode 字面量解释
@@ -80,5 +80,4 @@ scriptFile
 args
 : 传给脚本或命令（在 `sys.argv[1:]` 中）
 
-
-: 如果无 scriptFile 或命令，Python 则进入交互模式
+如果无 scriptFile 或命令，Python 则进入交互模式。
